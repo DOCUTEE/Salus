@@ -8,7 +8,6 @@ Salus
 └── README.md
 ```
 
-```markdown
 ### Starting the Docker Compose
 
 To start the services defined in the `docker-compose.yml` file, run the following command in the root directory:
@@ -18,4 +17,3 @@ docker compose up
 ```
 
 This will build and start all the services defined in the compose file.
-```
