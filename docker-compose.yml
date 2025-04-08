@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ai-model:
+    build: 
+      context: ./ai-model
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    networks:
+      - fullstack-net
+
+networks:
+  fullstack-net:
+    driver: bridge
